@@ -1,0 +1,11 @@
+/* Estilos específicos para el componente Header */
+.header-appbar {
+    background-image: url("/img/header.png");
+    background-size: cover;
+    height: 170px;
+  }
+  
+  .header-iconbutton {
+    margin-right: 2rem; /* Ajusta el espacio según sea necesario */
+  }
+  

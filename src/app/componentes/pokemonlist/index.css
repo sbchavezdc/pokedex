@@ -1,12 +1,13 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     gap: 20px;
     padding: 40px;
     background-color: #000;
   }
   
   .card {
+    
     background-color: #2a2a2a;
     border-radius: 10px;
     overflow: hidden;
